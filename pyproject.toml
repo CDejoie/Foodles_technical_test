@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["Clement Dejoie <clement.dejoie@creativelift.ai>"]
+readme = "README.md"
+packages = [{include = "python_sandbox"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+SQLAlchemy = "^1.4.46"
+pytest = "^7.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
