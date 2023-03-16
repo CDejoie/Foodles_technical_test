@@ -1,14 +1,13 @@
 [tool.poetry]
-name = "python-sandbox"
+name = "Foodles technical test"
 version = "0.1.0"
 description = ""
-authors = ["Clement Dejoie <clement.dejoie@creativelift.ai>"]
+authors = ["Clement Dejoie <clement.dejoie@gmail.com>"]
 readme = "README.md"
 packages = [{include = "python_sandbox"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-SQLAlchemy = "^1.4.46"
 pytest = "^7.2.2"
 
 
