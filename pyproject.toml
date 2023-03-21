@@ -1,10 +1,9 @@
 [tool.poetry]
 name = "Foodles technical test"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Clement Dejoie <clement.dejoie@gmail.com>"]
 readme = "README.md"
-packages = [{include = "python_sandbox"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
